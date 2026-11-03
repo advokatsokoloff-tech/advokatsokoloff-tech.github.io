@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Disallow: /send.php
+Disallow: /admin.html
+Disallow: /success.html
+Disallow: /fail.html
+Disallow: /api/
+Disallow: /telephony/
+Disallow: /_backup
+Disallow: /*.bak
+Disallow: /*before_requisites
+
+Disallow: /chat.php
+Disallow: /save_article.php
+Disallow: /send_vakansii.php
+Disallow: /._*
+Disallow: /novogodnij-korporativ-2020.html
+Disallow: /advocates_section_kagrifon.html
+Disallow: /lichnyj-kabinet-advokata.html
+Disallow: /registraciya.html
+
+# AI search and answer engines may crawl public pages through the generic rule above.
+# Sensitive endpoints remain disallowed for all crawlers, including OAI-SearchBot and Googlebot.
+
+Host: kagrifon.ru
+Sitemap: https://kagrifon.ru/sitemap.xml
+# AI-readable factual profile: https://kagrifon.ru/llms.txt
